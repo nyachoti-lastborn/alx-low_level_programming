@@ -2,7 +2,7 @@
 
 /**
  * main - opens main function of the program.
- * Return (1): returns a value of 1 
+ * return (1): returns a value of 1 
  */
 int main(void)
 {
