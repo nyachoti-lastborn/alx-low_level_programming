@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
 * main - prints the alphabet in lowercase
-* Description: using the main function this program prints the alphabet in lowercase and excludes the letters q and e
+* Description: using the main function this program prints
+* the alphabet in lowercase and excludes the letters q and e
 * Return: 0
 */
 int main(void)

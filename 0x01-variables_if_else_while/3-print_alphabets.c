@@ -4,7 +4,8 @@
 * Description: print lowercase alphabets and uppercase
 * Return: 0 (success)
 */
-int main() {
+int main(void)
+{
 char c;
 for (c = 'a'; c <= 'z'; c++) {
 putchar(c);
