@@ -1,3 +1,4 @@
+#include <main.h>
 #include <stdio.h>
 /** 
  * main-represents the main function.
