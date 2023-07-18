@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *Description- Program prints alphabet 10x
- * print_alphabet_x10- prints alphabet 10x in lowercase
- * return (0) - eturns a value of 0 
+ * print_alphabet_x10 - prints alphabet 10x in lowercase
+ * return: void
 */
 void print_alphabet_x10(void)
 {
