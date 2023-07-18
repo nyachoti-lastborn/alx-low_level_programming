@@ -5,7 +5,6 @@
 * followed by a new line
 * return(0)- returns a value of 0
 */
-int _putchar(char c);
 int main(void)
 {
 _putchar('_');
