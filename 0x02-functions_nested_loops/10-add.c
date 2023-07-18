@@ -2,8 +2,8 @@
 
 /**
  * add - add two integers and return result
- * @n1: first integer
- * @n2: second integer
+ * @a: first integer
+ * @b: second integer
  *
  * Return: sum of n1 + n2
  */
