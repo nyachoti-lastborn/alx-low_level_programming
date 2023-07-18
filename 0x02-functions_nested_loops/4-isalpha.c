@@ -1,7 +1,9 @@
 #include "main.h"
 /**
  *_isalpha -main function
- *return (0)- returns a value of 0
+ * @c: the character to be checked
+ *
+ * Return: 1 if c is a letter, else 0
 */
 int _isalpha(int c)
 {
