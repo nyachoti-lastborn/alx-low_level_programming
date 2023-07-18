@@ -2,7 +2,7 @@
 /**
  *Description- code prints the alphabet
  * in lowercase
- * void print_lowercase- function prototype for printing
+ * void print_alphabet- function prototype for printing
  * the alphabet
  * return (0) -returns 0
 */
