@@ -1,9 +1,9 @@
 #include "main.h"
-/** 
+/**
 * main-represents the main function.
 * description- this project prints _putchar
 * followed by a new line
-* return- returns a value of 0
+* return(0)- returns a value of 0
 */
 int _putchar(char c);
 int main(void)
