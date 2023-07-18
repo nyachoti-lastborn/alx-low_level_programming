@@ -1,10 +1,9 @@
 #include "main.h"
 /**
-* main-represents the main function.
-* description- this project prints _putchar
-* followed by a new line
-* return(0)- returns a value of 0
-*/
+ * main - Main function
+ * Description: print _putchar follwed by a new line
+ * Return: 0 (success)
+ */
 int main(void)
 {
 _putchar('_');
