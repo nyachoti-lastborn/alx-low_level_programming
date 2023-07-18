@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  *Description- code prints the alphabet
@@ -7,11 +6,13 @@
  * the alphabet
  * return (0) -returns 0
 */
-void print_lowercase(void)
+void print_alphabet(void)
 {
- char ch;
-for (ch = 'a', ch <='z', ch++)
+char ch = 'a';
+while (ch <= 'z')
+{
 _putchar(ch);
-_putchar("\n");
-return (0)
+ch++;
+}
+_putchar('\n');
 }
