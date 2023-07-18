@@ -6,20 +6,28 @@
  */
 void times_table(void)
 {
-int row, col, product;
-for (row = 0; row <= 9; row++)
+int i, j, product;
+for (i = 0; i <= 9; ++i)
 {
-for (col = 0; col <= 9; col++)
+for (j = 0; j <= 9; ++j)
 {
-product = row * col;
-if (col != 0)
+product = i * j;
+if (j != 0)
 {
 _putchar(',');
 _putchar(' ');
 if (product <= 9)
 _putchar(' ');
 }
-_putchar(product + '0');
+if (product <= 9)
+{
+_putchar('0' + product);
+}
+else
+{
+_putchar('0' + (product / 10));
+_putchar('0' + (product % 10));
+}
 }
 _putchar('\n');
 }
